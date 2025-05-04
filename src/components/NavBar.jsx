@@ -3,11 +3,6 @@ import "../css/Navbar.css"
 import { useNavigate } from "react-router-dom";
 
 function NavBar() {
-  const navigate = useNavigate();
-  const handleHomeClick = () => {
-    if (onHomeClick) onHomeClick();
-    navigate('/')
-  }
   
   return <nav className="navbar">
     <div className="navbar-brand">

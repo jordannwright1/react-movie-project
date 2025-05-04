@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import NavBar from "../components/NavBar";
 function Home() {
   
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState('');
 
   const [movies, setMovies] = useState([]);
   
